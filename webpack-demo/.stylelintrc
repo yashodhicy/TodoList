@@ -15,7 +15,8 @@
           "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
         }
       ],
-      "csstree/validator": true
+      "csstree/validator": true, // enable the csstree/validator rule
+      "function-calc-no-invalid": null // disable the function-calc-no-invalid rule
     },
     "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx"]
   }
