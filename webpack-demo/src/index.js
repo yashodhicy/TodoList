@@ -1,5 +1,5 @@
-import _ from 'lodash';
 import './style.css';
+
 const todoListContainer = document.querySelector('.todolistbody');
 
 const todosData = [
@@ -41,13 +41,12 @@ const loadTodos = () => {
         </div>
       </li>`;
       todoListContainer.querySelector('.todolist').innerHTML += todoListItem;
-      
     });
     const clear = document.createElement('li');
     clear.classList.add('clearCompleted');
     clear.innerText = 'Clear All Completed';
     todoListContainer.querySelector('.todolist').appendChild(clear);
-classList.add('clearAll')  }
+  }
 };
 
 loadTodos();
