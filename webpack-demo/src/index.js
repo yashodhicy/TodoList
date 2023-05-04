@@ -35,6 +35,9 @@ const loadTodos = () => {
           <input class="listinput" type="text" value="${todo.description}" readonly />
         </label>
         <div class="action">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
         </div>
       </li>`;
       todoListContainer.querySelector('.todolist').innerHTML += todoListItem;
